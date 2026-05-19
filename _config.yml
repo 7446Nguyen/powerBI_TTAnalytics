@@ -1,0 +1,14 @@
+# GitHub Pages configuration
+# https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll
+
+title: Table Tennis Analytics Dashboard
+description: Power BI performance dashboard for table tennis analytics
+theme: null   # No Jekyll theme — we use our own HTML/CSS
+
+# Prevents Jekyll from processing files it shouldn't touch
+include:
+  - index.html
+
+exclude:
+  - README.md
+  - .gitignore
